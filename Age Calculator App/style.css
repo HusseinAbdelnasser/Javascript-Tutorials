@@ -1,0 +1,71 @@
+body{
+    background-color: #ddd;
+}
+
+.container{
+    background-color: white;
+    margin: 100px auto;
+    width: 300px;
+    height: 250px;
+    padding: 20px;
+    border-radius: 15px;
+    border-bottom-right-radius: 150px;
+}
+
+.container div{
+    width: 50px;
+    float: left;
+    width: 30%;
+}
+
+.container div > span{
+    font-size: 12px;
+}
+
+.container div input{
+   width: 62px;
+   margin-top: 7px;
+   padding: 5px;
+   border: 1px solid #ddd;
+   border-radius: 5px;
+}
+
+.container .text,
+.container .text1,
+.container .text2{
+    color: red;
+    font-size: 9px;
+}
+
+.container div input:focus{
+    outline: none;
+}
+
+.age p{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.age span {
+    color: blueviolet;
+}
+
+.age {
+    margin-top: 25px;
+}
+
+.submit{
+    margin-top: 10px;
+    background-color: white;
+    border: 2px solid blueviolet;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: #333;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.submit:hover{
+    background-color: blueviolet;
+    color: white;
+}

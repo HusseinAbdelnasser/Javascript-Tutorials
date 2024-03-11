@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+  }
+  
+  body{
+    background: #e14647;
+    margin: 0;
+  }
+  
+  h2{
+    background: #e14647;
+    padding: 18px;
+    color: #FFFF;
+  }
+  
+  .crud-container{
+    padding: 30px;
+    background: #FFF;
+    width: 80%;
+    margin: 50px auto;
+    box-shadow: 1px 2px 5px #eee;
+  }
+  
+ input{
+    width: 80%;
+    border: 0;
+    padding: 6px 10px;
+    background: #c8c8c8;
+    float: left;
+    outline: 0;
+}
+
+ button{
+    width: 20%;
+    border: 0;
+    padding: 6px 0;
+    margin: 0;
+    outline: 0;
+    color: #FFF;
+    font-weight: bold;
+    cursor: pointer;
+    background: #4dc55b;
+    float: right;
+}
+
+.course-content .course-box .course,
+.course-content .no-courses-message{
+    display: inline-block;
+    width: 60%;
+    color: #6a6a6a;
+    margin: 15px 0;
+}
+  
+.course-content .course-box .edit{
+    background: #6a6a6a;
+    color: #FFF;
+    margin-right: 1%;
+    width: 19%;
+    margin-top: 10px;
+}
+
+.course-content .course-box .delete{
+    background: #d9534f;
+    color: #FFF;
+    margin-top: 10px;
+}

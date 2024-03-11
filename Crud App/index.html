@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crud App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+   <div class="crud-container">
+      <h2>Add Course</h2>
+        <div class="add-course">
+            <input type="text">
+            <button class="add" type="submit">Add Course</button>
+        </div>
+        <div class="update-course" style="display: none;">
+            <input type="text" class="inputval">
+            <button class="update" type="submit">Update Course</button>
+        </div>
+      <div class="course-content">
+           <span class="no-courses-message">No Courses To Show</span>
+           <!--
+                <span class="course-box">
+                    <span>Course One</span>
+                    <button class="delete">Delete Course</button>
+                    <button class="edit">Edit Course</button>
+                </span>
+                <span class="course-box">
+                   <span> Course Two</span>
+                   <button class="delete">Delete Course</button>
+                   <button class="edit">Edit Course</button>
+                </span>
+            -->
+      </div>
+   </div>
+
+
+
+    <script src="main.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</body>
+</html>
